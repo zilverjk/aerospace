@@ -203,6 +203,10 @@ run = 'layout floating'
 if.app-id = 'com.apple.TextEdit'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-id = 'com.raycast.macos'
+run = 'layout floating'
+
 # Open as accordion
 
 # [[on-window-detected]]
